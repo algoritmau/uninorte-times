@@ -17,6 +17,7 @@ specifiers:
   autoprefixer: ^10.4.7
   eslint: ^8.30.0
   eslint-config-next: 13.1.6
+  iconoir-react: ^6.4.1
   next: 13.1.6
   next-auth: ^4.19.0
   postcss: ^8.4.14
@@ -38,6 +39,7 @@ dependencies:
   '@trpc/next': 10.11.1_ck2pp32np6ey6osxngwuwfgwei
   '@trpc/react-query': 10.11.1_2pugaexxlcekgcbbhj75jqmiqi
   '@trpc/server': 10.11.1
+  iconoir-react: 6.4.1_react@18.2.0
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
   next-auth: 4.19.2_3vryta7zmbcsw4rrqf4axjqggm
   react: 18.2.0
@@ -1607,6 +1609,14 @@ packages:
     dependencies:
       function-bind: 1.1.1
     dev: true
+
+  /iconoir-react/6.4.1_react@18.2.0:
+    resolution: {integrity: sha512-BF6JhHP/HwdkCx2N/ahgMHBl4v3+8+OXjzzEaFl/8FU4CY0rzs+dT1gMJiToS70+B3lWkBmnhz5RVAkopJXW7A==}
+    peerDependencies:
+      react: ^16.8.6 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /ignore/5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
